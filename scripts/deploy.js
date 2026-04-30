@@ -14,7 +14,7 @@ async function main() {
   console.log("Deploying DelegateEOA...");
   console.log("  Deployer:", deployer.address);
   console.log(
-    "  Balance :",
+    "  Balance:",
     ethers.formatEther(await ethers.provider.getBalance(deployer.address)),
     "ETH"
   );
